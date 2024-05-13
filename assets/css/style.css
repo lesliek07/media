@@ -12,6 +12,8 @@
                           'footer'
 
     ;
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
 }
 
 .nav {
@@ -31,4 +33,21 @@
     justify-content: flex-start;
     align-items: center;
     gap: 5px;
+}
+.filtro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    padding: 10px;
+    grid-area: filtro;
+}
+select, option{
+    width: 90%;
+    height: 40px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-width: 1px;
+    border-radius: 5px;
 }
