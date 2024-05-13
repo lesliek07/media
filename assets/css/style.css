@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#root{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:  'navbar'
+                          'filtro'
+                          'productos'
+                          'footer'
+
+    ;
+}
+
+.nav {
+    display:flex;
+    background-color:green;
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    grid-area: navbar;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
