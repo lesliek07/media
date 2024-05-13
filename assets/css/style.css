@@ -76,7 +76,6 @@ select, option{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: space-between;
     border: solid 1px #9f9f9f;
 
 }
@@ -214,6 +213,14 @@ button:hover{
 
     .dis{
         display: block;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: solid 1px #9f9f9f;
+    
     }
     .cards::-webkit-scrollbar{
         width: 10px;
